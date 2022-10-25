@@ -1,6 +1,14 @@
-h1 {
+.hello {
     font-family: 'Libre Barcode 128 Text', cursive;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 30px;
 }
