@@ -1,3 +1,6 @@
 h1 {
     font-family: 'Libre Barcode 128 Text', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
