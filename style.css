@@ -5,6 +5,9 @@ body {
 
 .hello {
     font-family: 'Libre Barcode 128 Text', cursive;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 h1 {
