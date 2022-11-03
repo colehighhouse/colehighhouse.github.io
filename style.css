@@ -1,13 +1,12 @@
 body {
     display: flex;
     background-image: url(/pics/background.jpeg);
+    flex-direction: column;
+    justify-content: center;
 }
 
 .hello {
     font-family: 'Libre Barcode 128 Text', cursive;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 h1 {
