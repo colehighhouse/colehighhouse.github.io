@@ -15,6 +15,12 @@ a {
     text-decoration: none;
     color: white;
 }
+
+a:hover {
+    color: yellow;
+    transition: 0.5s;
+}
+
 .hello {
     text-align: center;
     padding-top: 100px;
