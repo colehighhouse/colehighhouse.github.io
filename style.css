@@ -1,12 +1,12 @@
 body {
     background-color: black;
     background-image: url("/pics/background.jpeg");
-    background-size: cover;
+    background-size: contain;
 }
 
 .hello {
     text-align: center;
-    padding-top: 1000px;
+    padding-top: 100px;
     padding-bottom: 200px;
 }
 
