@@ -27,6 +27,20 @@ p {
     font-size: 20px;
 }
 
+.wrapleft {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.wrapright {
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
 .articles {
     display: flex;
     flex-direction: column;
