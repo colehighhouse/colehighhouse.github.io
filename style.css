@@ -1,3 +1,7 @@
+body {
+    display: flex;
+}
+
 .hello {
     font-family: 'Libre Barcode 128 Text', cursive;
     display: flex;
