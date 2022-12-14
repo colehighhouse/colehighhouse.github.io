@@ -1,5 +1,5 @@
 body {
-    background-image: url("pics/background.jpg"); 
+    background-image: url("pics/collage.png"); 
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -9,6 +9,8 @@ h1 {
     font-family: 'Aclonica', sans-serif;
     font-size: 130px;
     padding-top: 35px;
+    background-color: rgb(255, 0, 144);
+    color: rgb(208, 255, 0);
 }
 
 a {
