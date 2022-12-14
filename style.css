@@ -3,7 +3,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    backdrop-filter: brightness(4);
+    backdrop-filter: brightness(2);
 }
 
 h1 {
@@ -42,4 +42,11 @@ a:hover {
 .mainlinks {
     display: flex;
     flex-direction: column;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
