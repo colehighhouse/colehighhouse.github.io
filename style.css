@@ -3,13 +3,13 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     color: rgb(255, 255, 255);
-    backdrop-filter: brightness(2);
+    backdrop-filter: brightness(1.5);
 }
 
 h1 {
     font-family: 'Cormorant Unicase', serif;
     font-size: 130px;
-    padding-top: 35px;
+    padding-top: 85px;
     background-color: rgb(255, 0, 144);
     color: rgb(208, 255, 0);
 }
