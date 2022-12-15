@@ -1,8 +1,8 @@
 body {
-    background-image: url("pics/collage.png"); 
+    background-image: url("pics/background.jpeg"); 
     background-size: cover;
     background-repeat: no-repeat;
-    color: rgb(244, 255, 159);
+    color: rgb(255, 255, 255);
     backdrop-filter: brightness(2);
 }
 
