@@ -1,22 +1,25 @@
+html {
+    font-size: 16px;
+}
+
 body {
     background-image: url("pics/background.jpeg"); 
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     color: rgb(255, 255, 255);
     backdrop-filter: brightness(1.5);
-    padding: none;
 }
 
 h1 {
     font-family: 'Cormorant Unicase', serif;
-    font-size: 135px;
+    font-size: 5em;
     background-color: rgb(255, 0, 144);
     color: rgb(208, 255, 0);
 }
 
 a {
     font-family: 'Cinzel', serif;
-    font-size: 30px;
+    font-size: 2em;
     text-decoration: none;
     color: rgb(204, 255, 0);
     padding: 20px;
@@ -37,13 +40,16 @@ a:hover {
 .toplinks, .top {
     display: flex;
     padding: 15px;
-    font-size: 25px;
+}
+
+.top {
+    font-size: 2em;
 }
 
 .mainlinks {
     display: flex;
     flex-direction: column;
-    padding-left: 900px;
+    -ms-flex-align: end;
 }
 
 ul {
@@ -57,3 +63,4 @@ footer {
    padding-bottom: none;
    background-color: black;
 }
+
