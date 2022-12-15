@@ -3,11 +3,7 @@ html {
 }
 
 body {
-    background-image: url("pics/background.jpeg"); 
-    background-size: 100%;
-    background-repeat: no-repeat;
-    color: rgb(255, 255, 255);
-    backdrop-filter: brightness(1.5);
+    background-color: rgb(142, 100, 100);
 }
 
 h1 {
@@ -32,14 +28,20 @@ a:hover {
 }
 
 .hello {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     padding-bottom: 150px;
     padding-top: 80px;
 }
 
-.toplinks, .top {
+.toplinks {
     display: flex;
-    padding: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .top {
@@ -47,12 +49,12 @@ a:hover {
 }
 
 .mainlinks {
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    -ms-flex-align: end;
 }
 
 ul {
+    color: white;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -60,7 +62,11 @@ ul {
 }
 
 footer {
-   padding-bottom: none;
-   background-color: black;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:50px;
+    width:100%;
+    background:rgb(0, 0, 0);
 }
 
