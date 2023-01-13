@@ -4,17 +4,17 @@ html {
 
 body {
     background-color: rgb(142, 100, 100);
+    background-image: url("../pics/image.jpeg");
 }
 
 h1 {
-    font-family: 'Cormorant Unicase', serif;
+    font-family: 'Zen Dots';
     font-size: 5em;
-    background-color: rgb(255, 0, 144);
     color: rgb(208, 255, 0);
 }
 
 a {
-    font-family: 'Cinzel', serif;
+    font-family: 'Cormorant Unicase', serif;
     font-size: 2em;
     text-decoration: none;
     color: rgb(204, 255, 0);
