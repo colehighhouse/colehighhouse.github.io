@@ -1,7 +1,15 @@
+
+body {
+    background: #53ff81;
+}
+
+
 .photos { 
     width: 100%;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
