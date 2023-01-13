@@ -1,5 +1,7 @@
 .photos { 
-    display: flex;
+    width: 100%;
+    display: inline-flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
