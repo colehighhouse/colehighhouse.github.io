@@ -3,14 +3,16 @@ html {
 }
 
 body {
-    background-color: rgb(142, 100, 100);
-    background-image: url("../pics/image.jpeg");
+    background-color: rgb(255, 255, 255);
+    background-image: url("pics/image.jpeg");
 }
 
 h1 {
     font-family: 'Zen Dots';
     font-size: 5em;
     color: rgb(208, 255, 0);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
 a {
@@ -19,7 +21,7 @@ a {
     text-decoration: none;
     color: rgb(204, 255, 0);
     padding: 20px;
-    text-shadow: -.4px 0 black, 0 .4px black, .4px 0 black, 0 -.4px black;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 a:hover {
