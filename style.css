@@ -5,6 +5,8 @@ html {
 body {
     background-color: rgb(255, 255, 255);
     background-image: url("pics/image.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -16,7 +18,7 @@ h1 {
 }
 
 a {
-    font-family: 'Zen Dots';
+    font-family: 'Nunito Sans', sans-serif;
     font-size: 2em;
     text-decoration: none;
     color: rgb(204, 255, 0);
@@ -41,8 +43,7 @@ a:hover {
 
 .toplinks {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     width: 100%;
 }
 
@@ -57,11 +58,13 @@ a:hover {
 }
 
 ul {
+    font-family: 'Nunito Sans', sans-serif;
     color: white;
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-right: 50px;
 }
 
 footer {
@@ -72,4 +75,10 @@ footer {
     width:100%;
     background:rgb(0, 0, 0);
 }
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 4em;
+    }
+ }
 
