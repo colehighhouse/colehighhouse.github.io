@@ -3,9 +3,7 @@ html {
 }
 
 body {
-    background-color: rgb(255, 255, 255);
-    background-image: url("pics/croc.jpg");
-    background-repeat: no-repeat;
+    background-color: black;
     background-size: cover;
 }
 
