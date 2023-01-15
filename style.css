@@ -4,7 +4,7 @@ html {
 
 body {
     background-color: rgb(255, 255, 255);
-    background-image: url("pics/background.JPG");
+    background-image: url("pics/croc.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -12,18 +12,19 @@ body {
 h1 {
     font-family: 'Zen Dots';
     font-size: 7em;
-    color: rgb(208, 255, 0);
-    text-shadow: -6px 0 black, 0 6px black, -6px 0 black, 0 6px black;
+    color: #291F1E;
+    text-shadow: -6px 0 #F3E0EC, 0 6px #F3E0EC, -6px 0 #F3E0EC, 0 6px #F3E0EC;
 
 }
 
 a {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 2em;
+    font-weight: bolder;
     text-decoration: none;
-    color: rgb(204, 255, 0);
+    color: #291F1E;
     padding: 20px;
-    text-shadow: -2px 0 white, 0 2px white, -2px 0 white, 0 2px white;
+    text-shadow: -2px 0 #CEF7A0, 0 2px #CEF7A0, -2px 0 #CEF7A0, 0 2px #CEF7A0;
 }
 
 a:hover {
