@@ -4,14 +4,15 @@ html {
 
 body {
     background-color: black;
+    padding-bottom: 50px;
 }
 
 h1 {
-    font-family: 'Zen Dots';
-    font-size: 7em;
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 9em;
     color: #291F1E;
     text-shadow: -6px 0 #F3E0EC, 0 6px #F3E0EC, -6px 0 #F3E0EC, 0 6px #F3E0EC;
-
+    align-self: center;
 }
 
 a {
@@ -20,7 +21,6 @@ a {
     font-weight: bolder;
     text-decoration: none;
     color: #291F1E;
-    padding: 20px;
     text-shadow: -2px 0 #CEF7A0, 0 2px #CEF7A0, -2px 0 #CEF7A0, 0 2px #CEF7A0;
 }
 
@@ -29,20 +29,11 @@ a:hover {
     transition: 0.5s;
 }
 
-.hello {
-    width: 100%;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding-bottom: 20px;
-    padding-top: 80px;
-}
-
 .toplinks {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
+    gap: 80px;
 }
 
 .top {
@@ -63,7 +54,7 @@ ul {
     list-style: none;
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 80px;
 }
 
 footer {
@@ -73,6 +64,10 @@ footer {
     height:50px;
     width:100%;
     background:rgb(0, 0, 0);
+}
+
+iframe {
+    padding-top: 50px;
 }
 
 @media (max-width: 800px) {

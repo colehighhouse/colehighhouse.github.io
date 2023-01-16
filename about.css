@@ -11,10 +11,12 @@ body {
 
 
 .myname {
-    font-size: 200px;
+    font-size: 380px;
 }
 
 p {
     font-size: 80px;
     white-space: pre-wrap;
+    padding-left: 80px;
+    padding-right: 80px;
 }
