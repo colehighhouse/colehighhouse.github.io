@@ -50,19 +50,20 @@ a:hover {
 }
 
 .mainlinks {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
+    align-items: center;
     
 }
 
 ul {
     font-family: 'Nunito Sans', sans-serif;
     color: white;
+    width: 100%;
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding-right: 50px;
+    gap: 50px;
 }
 
 footer {
