@@ -7,7 +7,6 @@ body {
     background-size:100%;
     background-repeat: repeat-y;
     background-attachment: fixed;
-    filter: saturate(400%);
     height:100%;
     width:100%;
 }
