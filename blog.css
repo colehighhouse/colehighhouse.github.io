@@ -74,6 +74,10 @@ a:hover {
     transition: 0.7s;
 }
 
+.breaker {
+    font-size: 35px;
+    color: white;
+}
 
 @media (max-width: 800px) {
     .content {
