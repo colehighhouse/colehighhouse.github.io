@@ -33,15 +33,9 @@ a:hover {
     transition: 0.5s;
 }
 
-.toplinks {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    gap: 80px;
-}
-
 .top {
     font-size: 2em;
+    padding: 20px;
 }
 
 .mainlinks {
@@ -51,31 +45,22 @@ a:hover {
     
 }
 
-ul {
-    font-family: 'Nunito Sans', sans-serif;
-    color: white;
-    width: 100%;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    gap: 80px;
-}
-
-footer {
-    position:fixed;
-    left:0px;
-    bottom:0px;
-    height:50px;
-    width:100%;
-}
-
 iframe {
     padding-top: 50px;
 }
 
 @media (max-width: 800px) {
     h1 {
-        font-size: 4em;
+        font-size: 3em;
+        align-self: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    a {
+        font-size: 1.5em;
+    }
+    .top {
+        font-size: 1.5em;
     }
  }
 
