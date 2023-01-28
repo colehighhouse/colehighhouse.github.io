@@ -11,6 +11,11 @@ body {
     justify-content: space-between;
 }
 
+.header {
+    font-size: 20px;
+    font-weight: 800px;
+}
+
 .title {
     font-family: 'Cormorant Unicase', serif;
     font-size: 80px;
