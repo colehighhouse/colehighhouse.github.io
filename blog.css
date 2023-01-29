@@ -14,6 +14,9 @@ body {
 .header {
     font-size: 20px;
     font-weight: 800px;
+    font-family: 'Cormorant Unicase', serif;
+    text-shadow: -.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
+align-self: center;
 }
 
 .title {
@@ -87,6 +90,8 @@ a:hover {
 @media (max-width: 800px) {
     .content {
      flex-direction: column;
+     padding-right: 20px;
+     padding-left: 20px;
     } 
     img {
         width: 100%;
@@ -95,10 +100,7 @@ a:hover {
         font-size: 35px;
         padding-right: 0px;
     }
-    .content {
-        padding-right: 20px;
-        padding-left: 20px;
-    }
+
     p {
         font-size: 14px;
     }
