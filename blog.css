@@ -93,5 +93,13 @@ a:hover {
     }
     .title {
         font-size: 35px;
+        padding-right: 0px;
+    }
+    .content {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    p {
+        font-size: 14px;
     }
  }
