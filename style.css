@@ -87,6 +87,7 @@ a:hover {
         width: 390px;
     }
     footer {
-        padding-bottom: 300px;
+        font-size: 20px;
+        margin-top: 20px;
     }
  }
