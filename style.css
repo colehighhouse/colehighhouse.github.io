@@ -86,4 +86,7 @@ a:hover {
     iframe {
         width: 390px;
     }
+    footer {
+        padding-bottom: 300px;
+    }
  }
