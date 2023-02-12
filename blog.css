@@ -47,7 +47,7 @@ table {
 
 
 body {
-    background-color: black;
+    background-color: rgb(164, 163, 163);
 }
 
 .content {
@@ -71,7 +71,7 @@ body {
     font-size: 80px;
     max-width: 700px;
     padding-right: 100px;
-    color: #F3E0EC;
+    color: #3D3B30;
 }
 
 p {
@@ -80,7 +80,7 @@ p {
     padding-top: 50px;
     text-align: left;
     color: black;
-    background-color: #F3E0EC;
+    background-color: white;
     padding: 20px 20px;
     font-size: 16px;
 }
@@ -116,7 +116,7 @@ a {
     color: #291F1E;
     border-radius: 10px;
     font-size: 20px;
-    background-color: #F3E0EC;
+    background-color: #CEF7A0;
     padding: 20px 20px;
 }
 
