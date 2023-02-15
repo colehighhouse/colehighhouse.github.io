@@ -49,6 +49,7 @@ body {
     background-image: url("pics/backgroundabout.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: scroll;
     width: 100%;
 }
 
