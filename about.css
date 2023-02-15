@@ -45,7 +45,8 @@ table {
 
 
 body {
-    background-image: url("../pics/backgroundabout");
+    background-color: #f1ab86;
+    background-image: url("pics/backgroundabout.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -55,7 +56,6 @@ body {
 .myname {
     font-size: 150px;
     font-family: 'Noto Sans SC', sans-serif;
-    max-width: 50%;
 }
 
 p {
@@ -64,7 +64,7 @@ p {
     padding-top: 70px;
     padding-left: 10px;
     word-wrap: normal;
-    max-width: 50%;
+    max-width: 40%;
 }
 
 img {
@@ -72,17 +72,23 @@ img {
 }
 
 @media (max-width: 800px) {
+
+    body {
+        background-image: url("pics/phoneaboutpage.png");
+        background-size: contain;
+    }
     .myname {
         font-size: 80px;
+        padding-top: 10px;
     }
 
     p {
-        font-size: 20px;
+        font-size: 12px;
         padding-left: 20px;
         padding-right: 20px;
+        padding-bottom: 300px;
+        max-width: 100%;
+
     }
 
-    img {
-        max-width: 25%;
-    }
  }
