@@ -165,4 +165,9 @@ a:hover {
     p {
         font-size: 14px;
     }
+
+    .sidetext {
+        font-size: 60px;
+        padding: 30px;
+    }
  }
