@@ -85,7 +85,7 @@ img {
 @media (max-width: 800px) {
 
     body {
-        background-image: url("pics/phoneaboutpage.png");
+        background-image: url("pics/phoneaboutpage.jpg");
         background-size: contain;
        
     }
