@@ -49,33 +49,40 @@ iframe {
 
 h1 {
     font-family: 'Noto Sans SC', sans-serif;
-    font-size: 100px;
-    color: #CEF7A0;
+    font-size: 45px;
+    color: black;
 }
 
 body{
-    background-image: url(/pics/background.jpg);
+    background-image: url("/pics/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
+p {
+    font-size: 100px;
+}
 
 span {
     float: right;
 }
+
 a {
     text-decoration: none;
-    color: #CEF7A0;
+    color: black;
 
 }
 footer{
-    margin-top: auto;
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 30px;
-    font-size: 30px;
-    font-family: 'Noto Sans SC', sans-serif;
+        position: fixed;
+        height: 50px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin-bottom: 0px;
+        font-size: 30px;
+        display: flex;
+        justify-content: space-around;
 }
 a:hover {
     background-color: rgb(2, 217, 246);
