@@ -42,7 +42,9 @@ table {
 	border-spacing: 0;
 }
 
-
+iframe {
+    padding: 60px;
+}
 
 
 h1 {
@@ -52,10 +54,11 @@ h1 {
 }
 
 body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(164, 163, 163);
+    background-image: url(/pics/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 span {
