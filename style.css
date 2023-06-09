@@ -118,13 +118,20 @@ a:hover {
 
 @media (max-width: 800px) {
     h1 {
-        font-size: 36px;
+        font-size: 30px;
+        letter-spacing: 0px;
     }
-    iframe {
-        width: 390px;
+    .breaker {
+        font-size: 40px;
+    }
+    .posts {
+        font-size: 20px;
     }
     footer {
-        font-size: 20px;
-        margin-top: 20px;
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    body {
+        background-image: url("/pics/phonebackground.jpg");
     }
  }
