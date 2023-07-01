@@ -88,7 +88,7 @@ a {
 }
 
 a:hover {
-    background-color: rgb(2, 217, 246);
+    background-color: #02f67b;
     transition: 0.7s;
 }
 
