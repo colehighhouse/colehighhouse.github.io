@@ -83,6 +83,8 @@ p {
     background-color: white;
     padding: 20px 20px;
     font-size: 16px;
+    border: #70feb6 2px;
+    border-style: solid;
 }
 
 .wrapleft {
