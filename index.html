@@ -10,6 +10,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&family=Noto+Sans+SC:wght@100&family=Cormorant+Unicase&family=Lora:ital,wght@1,500&family=Cinzel&family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
     <title>sorry, i'm too ___</title>
     <link rel="icon" href="/pics/weblogo.png">
+    <script>
+        function openList1() {
+            var list = document.getElementById("ollist1");
+            if (list.style.display == "none"){
+                list.style.display = "block";
+            }else{
+                list.style.display = "none";
+            }
+        }
+        </script>
+        <script>
+            function openList2() {
+                var list = document.getElementById("ollist2");
+                if (list.style.display == "none"){
+                    list.style.display = "block";
+                }else{
+                    list.style.display = "none";
+                }
+            }
+            </script>
+            <script>
+                function openList3() {
+                    var list = document.getElementById("ollist3");
+                    if (list.style.display == "none"){
+                        list.style.display = "block";
+                    }else{
+                        list.style.display = "none";
+                    }
+                }
+                </script>
 </head>
 <body>
     <a href="/html/about.html" class="top">我</a> 
@@ -21,11 +51,47 @@
         <a href="https://www.instagram.com/sorryimtoonew/" target="_blank">instagram🔪</a> 
        <a href ="https://open.spotify.com/user/1247410996?si=7144e975f93642d0" class="spotify" target="_blank">spotify🎧</a>
         </footer>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="posts">
-            <div class="breaker">2023</div>
-            <a href="/blog/chinafourmonths.html">A Reflection on Music in China (4 months)<br><div class= "date">February 23 2023</div></a>
-            <a href="/blog/kara.html">Catharsis through Kara's Walk Home - Look! A Rainbow!<br><div class= "date">January 27 2023</div></a>
-            <a href="/blog/music.html">How to fall out of love with music (and back in again)<br><div class="date">January 27 2023</div></a>
+            <p id = "list1" onclick = "openList1()">↳ profiles</p>
+                <ol id="ollist1" style="display: none;">
+                    
+                </ol>
+        <br>
+        <br>
+        <br>
+                <p id = "list1" onclick = "openList2()">↳ reviews</p>
+                <ol id="ollist2" style="display: none;">
+                    <br>
+                    <li><a href="/blog/kara.html">Catharsis through Kara's Walk Home - Look! A Rainbow!<br><div class= "date">January 27 2023</div></a></li>
+                    <br>
+                    <br>
+                </ol>
+        <br>
+        <br>
+        <br>
+
+
+                <p id = "list1" onclick = "openList3()">↳ journal</p>
+                <ol id="ollist3" style="display: none;">
+                    <br>
+                    <br>
+                    <li><a href="/blog/chinafourmonths.html">A Reflection on Music in China (4 months)<br><div class= "date">February 23 2023</div></a></li>
+                    <br>
+                    <li><a href="/blog/music.html">How to fall out of love with music (and back in again)<br><div class="date">January 27 2023</div></a></li>
+                    <br>
+                    <li><a href="blog/adalea.html">Ada Lea and Change<br><div class="date">2019</div></a></li>
+                    <br>
+                    <li><a href="blog/yeule.html">Yeule: Managing Our Virtual Lives<br><div class="date">2019</div></a></li>
+                    <br>
+                    <li><a href="blog/bigthief.html">on Maturity and Big Thief<br><div class="date">2018</div></a></li>
+                    <br>
+                    <li><a href="blog/hopalong.html">dealing with being mediocre, with help from Hop Along<br><div class="date">2018</div></a></li>
+                </ol>
+            
             <br>
             </div>
         </div>
