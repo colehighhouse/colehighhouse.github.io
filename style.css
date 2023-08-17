@@ -90,7 +90,6 @@ a {
 
 
 
-
 .posts {
     padding: 50px;
     width: 30%;
@@ -111,7 +110,15 @@ a {
 }
 
 li {
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+
+.date {
+    font-size: 15px;
+    padding-top: 5px;
 }
 
 #ollist1 , #ollist2 , #ollist3 {
