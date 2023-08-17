@@ -43,7 +43,11 @@ table {
 }
 
 
-
+.sidescroll {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 30px;
+}
 
 
 body {
@@ -83,7 +87,7 @@ p {
     background-color: white;
     padding: 20px 20px;
     font-size: 16px;
-    border: #70feb6 2px;
+    border: #7d5c71 2px;
     border-style: solid;
 }
 
@@ -107,12 +111,13 @@ p {
     width: 100%;
 }
 
-.sidetext {
-    width: 50%;
-    font-family: 'Noto Sans SC', sans-serif;
-    font-size: 100px;
-    color: #CEF7A0;
+.leftside {
+    display: flex;
+    flex-direction: column;
 }
+
+
+
 
 .posts {
     display: flex;
