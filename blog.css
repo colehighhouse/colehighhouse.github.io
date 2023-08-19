@@ -117,8 +117,6 @@ p {
 }
 
 
-
-
 .posts {
     display: flex;
     flex-direction: column;
@@ -131,23 +129,8 @@ p {
     width: 50%;
 }
 
-a {
-    font-family: 'Nunito Sans', sans-serif;
-    text-decoration: none;
-    color: #291F1E;
-    border-radius: 10px;
-    font-size: 20px;
-    background-color: #e9c4b0;
-    padding: 20px 20px;
-}
-
 .date {
     font-size: 15px;
-}
-
-a:hover {
-    background-color: rgb(2, 217, 246);
-    transition: 0.7s;
 }
 
 .breaker {
