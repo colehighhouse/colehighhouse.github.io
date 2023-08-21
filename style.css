@@ -48,9 +48,10 @@ iframe {
 
 
 h1 {
-    font-family: 'Cormorant Unicase', serif;
+    font-family: 'futura';
     font-size: 90px;
-    letter-spacing: 10px;
+    letter-spacing: -1px;
+    line-height: 100px;
     padding: 10px;
     color: black;
     text-align: right;
