@@ -125,7 +125,11 @@ li {
     height: 350px;
     width: 500px;
     text-align: center;
-    background-color: black;
+    background-image: url("/pics/square.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     cursor: all-scroll;
 }
 
