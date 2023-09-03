@@ -79,8 +79,6 @@ a {
 
 }
 
-
-
 .posts {
     font-family: 'Nunito Sans', sans-serif;
     padding: 50px;
@@ -119,6 +117,7 @@ li {
 #ollist1 , #ollist2 , #ollist3 {
     padding-left: 70px;
 }
+
 
 
 @media (max-width: 800px) {
