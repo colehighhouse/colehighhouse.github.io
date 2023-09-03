@@ -46,30 +46,19 @@ iframe {
     padding: 60px;
 }
 
+
+
+
+
+
+
 body{
-    background-image: url("/pics/background.jpg");
+    background-image: url("/pics/background.png");
+    background-color: rgb(240, 240, 240);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-}
-
-span {
-    float: left;
-    letter-spacing: 0px;
-}
-
-footer{
-        position: fixed;
-        height: 50px;
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
-        margin-bottom: 0px;
-        font-size: 20px;
-        display: flex;
-        justify-content: space-around;
-        background-color: white;
 }
 
 a {
@@ -86,11 +75,15 @@ a {
     display: flex;
     flex-direction: column;
     font-size: 25px;
+    cursor: zoom-in;
+
 }
 
 .posts a {
     padding-top: 0px;
     padding-bottom: 20px;
+    cursor: zoom-in;
+
 }
 
 .top {
@@ -105,8 +98,9 @@ li {
     font-size: 25px;
     font-weight: 400;
     padding-top: 20px;
-}
+    cursor: zoom-in;
 
+}
 
 .date {
     font-family: 'Nunito Sans', sans-serif;
@@ -116,6 +110,18 @@ li {
 
 #ollist1 , #ollist2 , #ollist3 {
     padding-left: 70px;
+    cursor: zoom-in;
+}
+
+.boxes {
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(255, 145, 145);
+    cursor: all-scroll;
 }
 
 

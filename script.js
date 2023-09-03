@@ -1,4 +1,4 @@
-const div = document.querySelector("movable");
+const div = document.querySelector(".boxes");
 let offsetX, offsetY; 
 
 const move = (e) => {
