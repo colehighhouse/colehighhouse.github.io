@@ -54,7 +54,7 @@ iframe {
 
 body{
     background-image: url("/pics/background.png");
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(250, 255, 176);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -63,9 +63,9 @@ body{
 
 a {
     text-decoration: none;
-    color: red;
+    color: #7d5c71;
     font-family: 'Nunito Sans', sans-serif;
-    cursor: url("/pics/firecursor.gif"), crosshair;
+    cursor: url("/pics/firecursor.gif");
 
 }
 
@@ -117,7 +117,7 @@ li {
 
 .box1 {
     position: absolute;
-    box-shadow: 10px 10px red;
+    box-shadow: 10px 10px #7d5c71;
     border-radius: 2%;
     right: 30%;
     top: 20%;
