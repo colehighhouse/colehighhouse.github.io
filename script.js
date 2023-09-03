@@ -1,4 +1,4 @@
-const div = document.querySelector(".boxes");
+const div = document.querySelector(".box1");
 let offsetX, offsetY; 
 
 const move = (e) => {
@@ -16,3 +16,6 @@ div.addEventListener("mousedown", (e) => {
 document.addEventListener("mouseup", () => {
   document.removeEventListener("mousemove", move);
 });
+
+
+
