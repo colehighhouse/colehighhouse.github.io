@@ -126,10 +126,6 @@ li {
     width: 500px;
     text-align: center;
     background-image: url("/pics/square.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
     cursor: all-scroll;
 }
 
