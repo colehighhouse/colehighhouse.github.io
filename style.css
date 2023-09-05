@@ -54,7 +54,7 @@ iframe {
 
 body{
     background-image: url("/pics/background.png");
-    background-color: rgb(250, 255, 176);
+    background-color: #FAF9F6;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -72,8 +72,8 @@ a {
 
 .posts {
     font-family: 'Nunito Sans', sans-serif;
-    padding-top: 100px;
-    padding-left: 20px;
+    padding-top: 30px;
+    padding-left: 80px;
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -89,12 +89,37 @@ a {
 
 }
 
+
+
+
+
+
 .top {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 30px;
-    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 20px;
 }
+
+.socials {
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
 
 li {
     font-family: 'Nunito Sans', sans-serif;
@@ -120,12 +145,17 @@ li:hover {
     cursor: zoom-in;
 }
 
+
+
+
+
+
 .box1 {
     position: absolute;
-    box-shadow: 10px 10px #7d5c71;
+    box-shadow: 0px 0px 30px #7d5c71;
     border-radius: 2%;
     right: 28%;
-    top: 10%;
+    top: 15%;
     height: 450px;
     width: 550px;
     text-align: center;
@@ -137,27 +167,37 @@ li:hover {
     cursor: all-scroll;
 }
 
-
-.socials {
-    font-family: 'Nunito Sans', sans-serif;
-    padding-top: 20px;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
+.box1:hover {
+    box-shadow: 0px 0px 30px 10px #7d5c71;
 }
+
+
+
+
+
 
 .featurepost {
     background-color: white;
     height: 100px;
     background-image: url("/pics/daughterpic2.jpeg");
     background-size: cover;
-    box-shadow: 10px 10px #7d5c71;
-    border-radius: 2%;
+    border-radius: 4%;
     cursor: pointer;
+    transition: box-shadow .3s;
+    text-align: center;
 }
 
 .featurepost a {
     cursor: pointer;
+    display:inline-block;
+    height:5px;
+    border-radius: 3px;
+    background-color:#FAF9F6;
+    color:black;
+}
+
+.featurepost:hover {
+    box-shadow: 0 0 30px rgba(33,33,33,.2); 
 }
 
 
