@@ -66,7 +66,7 @@ a {
     text-decoration: none;
     color: #7d5c71;
     font-family: 'Nunito Sans', sans-serif;
-    cursor: crosshair;
+    cursor: pointer;
 
 }
 
@@ -85,7 +85,7 @@ a {
 .posts a {
     padding-top: 0px;
     padding-bottom: 20px;
-    cursor: zoom-in;
+    cursor: pointer;
 
 }
 
@@ -149,8 +149,15 @@ li:hover {
 .featurepost {
     background-color: white;
     height: 100px;
-    background-image: url("/pics/daughterpic1.jpeg");
+    background-image: url("/pics/daughterpic2.jpeg");
     background-size: cover;
+    box-shadow: 10px 10px #7d5c71;
+    border-radius: 2%;
+    cursor: pointer;
+}
+
+.featurepost a {
+    cursor: pointer;
 }
 
 
