@@ -102,7 +102,7 @@ li {
     font-weight: 400;
     padding-top: 20px;
     cursor: crosshair;
-
+    
 }
 
 li:hover {
@@ -144,6 +144,12 @@ li:hover {
     display: flex;
     justify-content: space-around;
     text-align: center;
+}
+
+.featurepost {
+    background-color: white;
+    height: 100px;
+    background-image: url("/pics/daughterpic1.jpeg");
 }
 
 
