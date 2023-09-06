@@ -139,10 +139,10 @@ li:hover {
 
 
 .socials {
-    padding-left: 100px;
+   
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
+    width: 20%;
 }
 
 
