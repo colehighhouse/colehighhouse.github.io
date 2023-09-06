@@ -49,7 +49,7 @@ iframe {
 
 
 body{
-    background-image: url("/pics/background.png");
+    background-image: url("/pics/background2.png");
     background-color: #FAF9F6;
     background-size: cover;
     background-repeat: no-repeat;
@@ -58,30 +58,22 @@ body{
     width: 100%;
 }
 
-.profiles, .reviews, .journal, .socials  {
-    float: left;
+
+.dropdown {
+    display: inline-block;
     position: relative;
-    width: auto;
-}
+  }
 
-.profiles, .reviews, .journal, .socials, a a {
-    background: blue;
-    color: white;
-    display: block;
-    padding: 15px 55px;
-    text-align: center;
-    text-decoration: none;
-    transition: all .25s ease;
-}
-
-.dropdown-links {
-    left: 0;
-    opacity: 0;
+  .dropdown-options {
+    display: none;
     position: absolute;
-    top: 35px;
-    visibility: hidden;
-    z-index: 1;
-}
+    overflow: auto;
+  }
+  
+  .dropdown:hover .dropdown-options {
+    display: block;
+  }
+  
 
 
 
