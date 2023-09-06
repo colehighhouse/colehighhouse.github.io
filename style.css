@@ -48,10 +48,6 @@ iframe {
 
 
 
-
-
-
-
 body{
     background-image: url("/pics/background.png");
     background-color: #FAF9F6;
@@ -59,60 +55,33 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    width: 100%;
 }
 
-a {
-    font-family: 'Nunito Sans', sans-serif;
+.profiles, .reviews, .journal, .socials  {
+    float: left;
+    position: relative;
+    width: auto;
+}
+
+.profiles, .reviews, .journal, .socials, a a {
+    background: blue;
+    color: white;
+    display: block;
+    padding: 15px 55px;
+    text-align: center;
     text-decoration: none;
-    color: #7d5c71;
-    font-family: 'Nunito Sans', sans-serif;
-    cursor: pointer;
-
+    transition: all .25s ease;
 }
 
-
-
-
-
-
-
-
-.posts {
-    font-family: 'Nunito Sans', sans-serif;
-    padding-top: 30px;
-    padding-left: 80px;
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    font-size: 25px;
-    cursor: zoom-in;
-
+.dropdown-links {
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    visibility: hidden;
+    z-index: 1;
 }
-
-.posts a {
-    padding-top: 0px;
-    padding-bottom: 20px;
-    cursor: pointer;
-
-}
-
-li:hover {
-    text-decoration: underline;
-}
-
-.date {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 15px;
-    padding-top: 5px;
-}
-
-#ollist1 , #ollist2 , #ollist3 {
-    padding-left: 70px;
-    cursor: zoom-in;
-}
-
-
-
 
 
 
@@ -120,8 +89,8 @@ li:hover {
     position: absolute;
     box-shadow: 0px 0px 30px #7d5c71;
     border-radius: 2%;
-    right: 25%;
-    top: 35%;
+    right: 10%;
+    top: 90%;
     height: 300px;
     width: 400px;
     text-align: center;
@@ -138,32 +107,6 @@ li:hover {
 }
 
 
-.socials {
-   
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-}
 
 
 
-@media (max-width: 800px) {
-    h1 {
-        font-size: 30px;
-        letter-spacing: 0px;
-    }
-    .breaker {
-        font-size: 40px;
-        padding-top: 400px;
-    }
-    .posts {
-        font-size: 20px;
-    }
-    footer {
-        font-size: 15px;
-        padding-top: 10px;
-    }
-    body {
-        background-image: url("/pics/phonebackground.jpg");
-    }
- }
