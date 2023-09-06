@@ -89,6 +89,7 @@ p {
     font-size: 16px;
     border: #7d5c71 2px;
     border-style: solid;
+    box-shadow: 0 0 30px #000000;
 }
 
 .wrapleft {
@@ -136,6 +137,11 @@ p {
 .breaker {
     font-size: 35px;
     color: white;
+}
+
+
+img {
+    box-shadow: 0 0 10px #000000;
 }
 
 
