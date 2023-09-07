@@ -49,8 +49,8 @@ iframe {
 
 
 body{
-    background-image: url("/pics/background2.png");
-    background-color: #FAF9F6;
+    background-image: url("/pics/background.png");
+    background-color: rgb(238, 237, 237);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -58,22 +58,77 @@ body{
     width: 100%;
 }
 
+button {
+  background-color: blue;
+  color: white;
+  padding: 16px;
+  font-size: 18px;
+}
 
 .dropdown {
-    display: inline-block;
-    position: relative;
-  }
+  display: inline-block;
+  position: relative;
+  
+}
 
-  .dropdown-options {
-    display: none;
-    position: absolute;
-    overflow: auto;
-  }
+.dropdown:hover button {
+  background-color: black;
+  transition: .3s;
+  cursor: zoom-in;
+}
+
+.dropdown-options {
+  overflow: auto;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 15px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.date {
+  font-size: 13px;
+}
+
+.dropdown-options a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-options a:hover {
+  background-color: rgb(170, 255, 170);
+  transition: .3s;
+}
+
+.dropdown:hover .dropdown-options {
+  display: block;
+}
   
-  .dropdown:hover .dropdown-options {
-    display: block;
-  }
-  
+.menu {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-top: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -81,8 +136,8 @@ body{
     position: absolute;
     box-shadow: 0px 0px 30px #7d5c71;
     border-radius: 2%;
-    right: 10%;
-    top: 90%;
+    right: 20%;
+    top: 40%;
     height: 300px;
     width: 400px;
     text-align: center;
@@ -95,7 +150,7 @@ body{
 }
 
 .box1:hover {
-    box-shadow: 0px 0px 30px 10px #7d5c71;
+    box-shadow: 0px 0px 30px 10px white;
 }
 
 
