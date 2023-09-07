@@ -184,6 +184,7 @@ button {
     background-position: center;
     background-attachment: fixed;
     cursor: all-scroll;
+    scale: 0%;
 }
 
 .box1:hover {
