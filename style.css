@@ -135,7 +135,7 @@ button {
 
 .box1 {
     position: absolute;
-    box-shadow: 0px 0px 30px #7d5c71;
+    box-shadow: 0px 0px 30px black;
     border-radius: 2%;
     right: 20%;
     top: 40%;
@@ -171,10 +171,10 @@ button {
 
   .box1 {
     position: absolute;
-    box-shadow: 0px 0px 30px #7d5c71;
+    box-shadow: 0px 0px 30px black;
     border-radius: 2%;
-    right: 30%;
-    top: 30%;
+    right: 70%;
+    top: -10%;
     height: 150px;
     width: 200px;
     text-align: center;
@@ -200,6 +200,4 @@ button {
   scale: 70%;
 }
 
-button {
-}
 }
