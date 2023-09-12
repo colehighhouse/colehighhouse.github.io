@@ -192,13 +192,19 @@ button {
 }
 
 .menu {
-  width: 60%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-left: 10px;
-  padding-top: 150px;
-  scale: 70%;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 16px;
+  font-size: 25px;
 }
 
 }
