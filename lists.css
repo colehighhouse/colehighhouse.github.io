@@ -48,8 +48,8 @@ a {
 	flex-direction: column;
 	text-align: center;
 	justify-content: space-between;
-	padding: 120px 0px 120px 0px;
 	text-decoration: none;
+	padding: 120px;
 	color: black;
 	font-size: 4vw;
 }
@@ -59,16 +59,22 @@ a {
 }
 
 
-.fourmonths:hover{
-	color: #fff;
+a:hover{
+	color: black;
 	animation: blinkingBackground .6s infinite;
+	border-radius: 800px;
 }
 @keyframes blinkingBackground{
-	0%		{ background-color: #f6ffbb;}
-	25%		{ background-color: #e0ff91;}
-	50%		{ background-color: #d6fd98;}
-	75%		{ background-color: #e0ff91;}
-	100%	{ background-color: #f6ffbb;}
+	10%		{ background-color: #fff695;}
+	20%		{ background-color: #fbe3a8;}
+	30%		{ background-color: #f8d2b9;}
+	40%		{ background-color: #f2b5d7;}
+	50%		{ background-color: #eea3ea;}
+	60%		{ background-color: #ea8eff;}
+	70%		{ background-color: #f1afdd;}
+	80%		{ background-color: #f5c2ca;}
+	90%		{ background-color: #f9d7b5;}
+	100%	{ background-color: #fce7a5;}
 }
 
 
