@@ -109,6 +109,12 @@ button {
 .dropdown:hover .dropdown-options {
   display: block;
 }
+
+
+.horse {
+  position: absolute;
+  bottom: 0%;
+}
   
 .menu {
   width: 40%;
