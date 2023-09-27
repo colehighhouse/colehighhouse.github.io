@@ -42,4 +42,32 @@ table {
 	border-spacing: 0;
 }
 
+a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 150px 10px 150px 10px;
+	text-decoration: none;
+	color: black;
+	font-size: 70px;
+	text-align: center;
+	width: 100%;
+	
+}
+
+
+.fourmonths:hover{
+	color: #fff;
+	display: inline-block;
+	animation: blinkingBackground .6s infinite;
+}
+@keyframes blinkingBackground{
+	0%		{ background-color: #f6ffbb;}
+	25%		{ background-color: #79ffc7;}
+	50%		{ background-color: #c998fd;}
+	75%		{ background-color: #c1c1c1;}
+	100%	        { background-color: #ffffff;}
+}
+
 
