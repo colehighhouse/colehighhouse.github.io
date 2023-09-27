@@ -74,7 +74,6 @@ button {
 .dropdown:hover button {
   background-color: black;
   transition: .3s;
-  cursor: zoom-in;
 }
 
 .dropdown-options {
@@ -113,7 +112,7 @@ button {
 .buttons {
   position: absolute;
   top: 35%;
-  left: 15%;
+  left: 10%;
 }
 
   
@@ -154,7 +153,6 @@ button {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    cursor: all-scroll;
 }
 
 .box1:hover {
