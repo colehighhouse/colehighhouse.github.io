@@ -143,10 +143,10 @@ button {
     position: absolute;
     box-shadow: 0px 0px 30px black;
     border-radius: 2%;
-    right: 25%;
-    top: 40%;
-    height: 300px;
-    width: 400px;
+    right: 30%;
+    top: 50%;
+    height: 400px;
+    width: 550px;
     text-align: center;
     background-image: url("/pics/background2.png");
     background-size: cover;
