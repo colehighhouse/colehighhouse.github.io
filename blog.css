@@ -53,7 +53,7 @@ body {
 .top {
     display: flex;
     justify-content: space-between;
-    padding: 40px 40px 0px 40px;
+    padding: 40px 40px 20px 40px;
     align-items: center;
     text-align: center;
 }
@@ -69,6 +69,7 @@ body {
     font-family: 'raleway-mediumitalic';
     text-align: center;
     padding-top: 20px;
+    font-size: 2vw;
 }
 
 
@@ -90,6 +91,7 @@ p {
     padding-left: 50px;
     font-size: 17px;
     padding-bottom: 100px;
+    text-align: justify;
 
 }
 
