@@ -47,6 +47,7 @@ body {
 }
 
 a {
+	font-family: 'Raleway-italic';
 	display: flex;
 	flex-direction: column;
 	text-align: center;

@@ -53,18 +53,23 @@ body {
 .top {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding: 40px 40px 0px 40px;
     align-items: center;
+    text-align: center;
 }
 
 .title {
-    font-family: 'Cormorant Unicase', serif;
+    font-family: 'Raleway';
     font-size: 6vw;
     color: rgb(0, 0, 0);
     text-align: center;
 }
 
-
+.rating {
+    font-family: 'raleway-mediumitalic';
+    text-align: center;
+    padding-top: 20px;
+}
 
 
 .content {
@@ -79,7 +84,7 @@ body {
 p {
     font-family: 'Nunito Sans', sans-serif;
     width: 60%;
-    padding-top: 50px;
+    padding-top: 25px;
     text-align: left;
     color: black;
     padding-left: 50px;
@@ -106,7 +111,6 @@ p {
 
 
 
-
 img {
     box-shadow: 0 0 10px #000000;
 }
@@ -117,9 +121,7 @@ img {
 @media (max-width: 800px) {
     .content {
      flex-direction: column;
-     padding-right: 20px;
      padding-left: 20px;
-     padding-top: 15px;
     } 
     img {
         width: 100%;
@@ -127,10 +129,13 @@ img {
     .title {
         font-size: 35px;
         padding-right: 0px;
+        padding-top: 30px;
     }
 
     p {
         font-size: 14px;
+        width: 85%;
+        text-align: justify;
     }
 
     a {
@@ -143,9 +148,7 @@ img {
         font-size: 10px;
     }
 
-    .sidetext {
-        font-size: 35px;
-        padding: 30px;
-        width: 30%;
+    .top {
+        flex-direction: column;
     }
  }
