@@ -135,7 +135,7 @@ button:hover {
   animation-iteration-count: infinite;
   animation-timing-function: linear; 
   position: absolute;
-  bottom: 5%;
+  bottom: 15%;
   left: 5%;
   /* transform: rotate(3deg); */
    /* transform: rotate(0.3rad);/ */
