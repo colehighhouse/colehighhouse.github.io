@@ -66,6 +66,14 @@ h3 {
   text-align: right;
 }
 
+.arrow {
+  font-size: 700px;
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  animation: blink .6s infinite;
+}
+
 button {
   background-color: black;
   color: rgb(255, 255, 148);
@@ -147,9 +155,7 @@ h1 {
 }
 
 @keyframes blink{
-  30%		{ color: white;}
-  60%		{ color: black;}
-	90%		{ color: white;}
+	90%		{ color: rgb(93, 93, 93);}
 }
 
 @keyframes spin {
