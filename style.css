@@ -81,9 +81,6 @@ button {
   font-size: 35px;
 }
 
-.date {
-  font-size: 13px;
-}
 
 .buttons {
   position: absolute;
@@ -202,15 +199,6 @@ h1 {
 
 
 @media (max-width: 800px) {
-  body {
-    background-image: url("/pics/phonebackground.png");
-    background-color: rgb(238, 237, 237);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    width: 100%;
-  }
 
   .box1 {
     position: absolute;
@@ -230,19 +218,31 @@ h1 {
     scale: 0%;
 }
 
-.box1:hover {
-    box-shadow: 0px 0px 30px 10px white;
+h3 {
+  font-size: 5vw;
 }
 
-.menu {
-  scale: 65%;
-  max-width: 100%;
-  min-width: 100%;
+button {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-left: 0px;
-  padding-top: 0px;
+  width: 100%;
+  text-decoration: none;
 }
 
+.buttons {
+  top: 15%;
+  text-decoration: none;
+}
+
+.alex {
+  scale: 80%;
+  right: -25%;
+}
+
+.postlinks {
+  font-size: 6vw;
+}
+
+.postlinks .date {
+  font-size: 4vw;
+}
 }
