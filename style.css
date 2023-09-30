@@ -95,13 +95,10 @@ button:hover {
   background-color: white;
 }
 
-.menu {
-  width: 40%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-left: 100px;
-  padding-top: 150px;
+.alex {
+  position: absolute;
+  top: 1500px;
+  right: 5%;
 }
 
 
