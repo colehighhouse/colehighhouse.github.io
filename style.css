@@ -56,6 +56,8 @@ body{
     background-position: center;
     background-attachment: fixed;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 button {
@@ -141,6 +143,58 @@ button:hover {
    /* transform: rotate(0.3rad);/ */
    /* transform: rotate(3grad); */ 
    /* transform: rotate(.03turn);  */
+}
+
+.profiles {
+  padding-top: 1200px;
+}
+
+.postlinks {
+	font-family: 'Raleway-italic';
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	justify-content: space-between;
+	color: black;
+	font-size: 3vw;
+  max-width: 60%;
+}
+
+.postlinks a {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.postlinks .date {
+	font-size: 2vw;
+}
+
+h1 {
+  font-family: 'Raleway-bold';
+  font-size: 8vw;
+  padding: 20px;
+}
+
+
+.postlinks a:hover{
+	color: black;
+	animation: blinkingBackground .6s infinite;
+	border-radius: 0px;
+}
+
+@keyframes blinkingBackground{
+	10%		{ background-color: #fff695;}
+	20%		{ background-color: #fbe3a8;}
+	30%		{ background-color: #f8d2b9;}
+	40%		{ background-color: #f2b5d7;}
+	50%		{ background-color: #eea3ea;}
+	60%		{ background-color: #ea8eff;}
+	70%		{ background-color: #f1afdd;}
+	80%		{ background-color: #f5c2ca;}
+	90%		{ background-color: #f9d7b5;}
+	100%	{ background-color: #fce7a5;}
 }
 
 @keyframes spin {
