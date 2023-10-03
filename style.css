@@ -73,6 +73,7 @@ h3 {
   left: 40%;
   top: 30%;
   animation: blink .6s infinite;
+  transform: scaleX(-1);
 }
 
 button {
@@ -161,7 +162,6 @@ h1 {
         transform:rotate(360deg);
     }
 }
-
 
 
 
